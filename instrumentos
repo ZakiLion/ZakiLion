@@ -1,0 +1,17 @@
+# uma lista de instrumentos musicais
+instrumentos= ['baixo', 'bateria', 'guitarra']
+                
+# para cada nome na lista de instrumentos
+for instrumento in instrumentos:
+    # mostre o nome do instrumento musical
+    print(instrumento) 
+    
+    
+    
+    
+    
+    
+    saída=
+    -baixo
+    -bateria
+    -guitarra
