@@ -1,0 +1,37 @@
+// C++ code
+ #define echo 8
+#define trigger 9
+#define led 10
+#define buzz 11
+
+void setup()
+{
+ pinMode(buzz,OUTPUT0;
+  pinMode(led,OUTPUT);
+         pinmode(trigger,OUTPUT);
+         pinmode(echo,INPUT);
+}
+
+void loop()
+{
+  digitalwrite(trigger, HIGH);
+  delayMicroseconds(10);
+  duration = pulseIn(echo, HIGH);
+  distance = (duration / 20 / 29.1;
+              
+    
+              if (distance <= 10) {
+                
+                tone(buzz, 13500 ; //Gerar um sinal de 1350Hz no pino do buzzer
+                delay(150);
+                tone(buzz, 1050); //Gerar um sinal de 1050Hz no pino do buzzer
+                delay(150);
+                 digitalWrite(led, HIGH);
+                 delay(500);
+                digitalWhite(led, LOW);
+}
+                     else {
+                       noTone(buzz);
+                       digitalWrite(led,Low);
+}
+                     
